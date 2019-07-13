@@ -2,12 +2,15 @@
 ---
 http://yui.github.io/yuidoc/
 
-```
-@class MyClas
-@constructor
+
+```sh
+npm install -g yuidocjs
 ```
 
 ```
+@class MyClas
+@constructor
+
 @method methodName
 @param {String}
 @param {Object}
@@ -15,9 +18,7 @@ http://yui.github.io/yuidoc/
 @param {Function}
 @param {Boolean}
 @return {Boolean}
-```
 
-```
 @property propertyName
 @type {Object}
 @default "foo"
